@@ -3,7 +3,6 @@ import { SafeAreaView, StyleSheet, ImageBackground, Text, TextInput, TouchableOp
 import { styles } from './styles'
 
 export default function App() {
-  const [rememberMe, setRememberMe] = useState(false);
 
   return (
     <SafeAreaView style={styles.container}>
