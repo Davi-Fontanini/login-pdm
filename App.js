@@ -18,7 +18,7 @@ export default function App() {
               style={[styles.input, styles.roundedInput]}
               placeholder="E-mail"
               keyboardType="email-address"
-              placeholderTextColor="#FFF"
+              placeholderTextColor="#3c5668"
             />
           </View>
           <View style={styles.inputContainer}>
@@ -26,7 +26,7 @@ export default function App() {
               style={[styles.input, styles.roundedInput]}
               placeholder="Password"
               secureTextEntry={true}
-              placeholderTextColor="#FFF"
+              placeholderTextColor="#3c5668"
             />
           </View>
           <TouchableOpacity style={styles.whiteButton}>
