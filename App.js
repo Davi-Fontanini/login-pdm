@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { SafeAreaView, ImageBackground, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import { styles } from './styles'
 
