@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SafeAreaView, StyleSheet, ImageBackground, Text, TextInput, TouchableOpacity, View } from 'react-native';
+import { SafeAreaView, ImageBackground, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import { styles } from './styles'
 
 export default function App() {
