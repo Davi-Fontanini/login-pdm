@@ -29,7 +29,7 @@ export default function App() {
               placeholderTextColor="#3c5668"
             />
           </View>
-          <TouchableOpacity style={styles.whiteButton}>
+          <TouchableOpacity style={styles.whiteButton} onPress={() => console.log("Log in")>
             <Text style={[styles.buttonText, { color: 'black' }]}>Log In</Text>
           </TouchableOpacity>
           <View style={styles.bottomTextContainer}>
